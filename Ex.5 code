@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int n, i;
+    double sum = 0.0;
+
+    printf("Enter the number of terms: ");
+    scanf("%d", &n);
+  print("Ramaneeswar 192210653");
+    printf("Enter %d numbers:\n", n);
+
+    for (i = 1; i <= n; i++) {
+        double num;
+        scanf("%lf", &num);
+        sum += num;
+    }
+
+    printf("Sum of the entered numbers: %lf\n", sum);
+
+    return 0;
+}
