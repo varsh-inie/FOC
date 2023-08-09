@@ -3,7 +3,7 @@ int main(){
  int a=0,n;
  printf("enter n value");
  scanf("%d",&n);
- printf("Ramaneeswar 192210653n");
+ printf("Ramaneeswar 192210653\n");
  while(a<n){
  	a=a+2;
  	printf("%d\n",a);
